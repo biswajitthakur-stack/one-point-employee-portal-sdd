@@ -1,0 +1,188 @@
+{
+  "stats": [
+    {
+      "label": "Total Transfer Requests",
+      "value": 8,
+      "type": "total",
+      "detail": "Across all departments"
+    },
+    {
+      "label": "Pending Review",
+      "value": 3,
+      "type": "pending",
+      "detail": "Requires action"
+    },
+    {
+      "label": "Approved Requests",
+      "value": 4,
+      "type": "approved",
+      "detail": "Finalized transfers"
+    },
+    {
+      "label": "Rejected Requests",
+      "value": 1,
+      "type": "rejected",
+      "detail": "Not approved"
+    }
+  ],
+  "requests": [
+    {
+      "id": "REQ-2026-0891",
+      "employeeName": "Alex Morgan",
+      "employeeId": "EMP-001",
+      "email": "employee@onepoint.demo",
+      "currentDepartment": "Engineering",
+      "requestedDepartment": "Product Management",
+      "currentLocation": "London, UK",
+      "requestedLocation": "New York, US",
+      "effectiveDate": "2026-11-01",
+      "submittedDate": "2026-09-14",
+      "status": "Under Review",
+      "reason": "Seeking broader product ownership experience and relocation to US tech hub.",
+      "skills": [
+        "React",
+        "Node.js",
+        "System Design"
+      ],
+      "managerName": "David Miller"
+    },
+    {
+      "id": "REQ-2026-0885",
+      "employeeName": "Elena Rostova",
+      "employeeId": "EMP-014",
+      "email": "elena.r@onepoint.demo",
+      "currentDepartment": "Customer Success",
+      "requestedDepartment": "Sales Engineering",
+      "currentLocation": "Berlin, DE",
+      "requestedLocation": "London, UK",
+      "effectiveDate": "2026-10-15",
+      "submittedDate": "2026-09-10",
+      "status": "Pending",
+      "reason": "Transitioning to technical pre-sales role in UK office.",
+      "skills": [
+        "Solution Architecture",
+        "Client Relations"
+      ],
+      "managerName": "Klaus Webber"
+    },
+    {
+      "id": "REQ-2026-0872",
+      "employeeName": "Marcus Chen",
+      "employeeId": "EMP-029",
+      "email": "marcus.c@onepoint.demo",
+      "currentDepartment": "Engineering",
+      "requestedDepartment": "DevOps & Platform",
+      "currentLocation": "London, UK",
+      "requestedLocation": "London, UK",
+      "effectiveDate": "2026-10-01",
+      "submittedDate": "2026-09-05",
+      "status": "Approved",
+      "reason": "Departmental alignment to cloud infrastructure team.",
+      "skills": [
+        "Kubernetes",
+        "Terraform",
+        "AWS"
+      ],
+      "managerName": "David Miller"
+    },
+    {
+      "id": "REQ-2026-0860",
+      "employeeName": "Sophia Patel",
+      "employeeId": "EMP-041",
+      "email": "sophia.p@onepoint.demo",
+      "currentDepartment": "Marketing",
+      "requestedDepartment": "Growth Marketing",
+      "currentLocation": "Singapore, SG",
+      "requestedLocation": "Singapore, SG",
+      "effectiveDate": "2026-09-30",
+      "submittedDate": "2026-08-28",
+      "status": "Approved",
+      "reason": "Role restructuring within regional marketing team.",
+      "skills": [
+        "SEO",
+        "Analytics",
+        "Campaign Strategy"
+      ],
+      "managerName": "Priya Sharma"
+    },
+    {
+      "id": "REQ-2026-0845",
+      "employeeName": "James Vance",
+      "employeeId": "EMP-055",
+      "email": "james.v@onepoint.demo",
+      "currentDepartment": "Finance",
+      "requestedDepartment": "Operations",
+      "currentLocation": "New York, US",
+      "requestedLocation": "Chicago, US",
+      "effectiveDate": "2026-10-01",
+      "submittedDate": "2026-08-20",
+      "status": "Approved",
+      "reason": "Personal relocation and shift to operational finance.",
+      "skills": [
+        "Financial Analysis",
+        "Process Automation"
+      ],
+      "managerName": "Robert Vance"
+    },
+    {
+      "id": "REQ-2026-0830",
+      "employeeName": "Aisha Bello",
+      "employeeId": "EMP-062",
+      "email": "aisha.b@onepoint.demo",
+      "currentDepartment": "Human Resources",
+      "requestedDepartment": "Talent Acquisition",
+      "currentLocation": "London, UK",
+      "requestedLocation": "London, UK",
+      "effectiveDate": "2026-11-15",
+      "submittedDate": "2026-08-15",
+      "status": "Pending",
+      "reason": "Specializing in technical talent sourcing.",
+      "skills": [
+        "Recruiting",
+        "HRIS",
+        "People Analytics"
+      ],
+      "managerName": "Sarah Jenkins"
+    },
+    {
+      "id": "REQ-2026-0812",
+      "employeeName": "Carlos Gomez",
+      "employeeId": "EMP-078",
+      "email": "carlos.g@onepoint.demo",
+      "currentDepartment": "Design",
+      "requestedDepartment": "Product Design",
+      "currentLocation": "Madrid, ES",
+      "requestedLocation": "London, UK",
+      "effectiveDate": "2026-12-01",
+      "submittedDate": "2026-08-10",
+      "status": "Rejected",
+      "reason": "Location transfer request budget cap reached for Q4.",
+      "skills": [
+        "UI/UX",
+        "Figma",
+        "Design Systems"
+      ],
+      "managerName": "Ana Silva"
+    },
+    {
+      "id": "REQ-2026-0801",
+      "employeeName": "Hannah Abbott",
+      "employeeId": "EMP-090",
+      "email": "hannah.a@onepoint.demo",
+      "currentDepartment": "Quality Assurance",
+      "requestedDepartment": "Software Engineering",
+      "currentLocation": "London, UK",
+      "requestedLocation": "London, UK",
+      "effectiveDate": "2026-10-01",
+      "submittedDate": "2026-08-01",
+      "status": "Approved",
+      "reason": "Internal career progression from QA automation engineer to backend developer.",
+      "skills": [
+        "Python",
+        "Selenium",
+        "API Testing"
+      ],
+      "managerName": "David Miller"
+    }
+  ]
+}

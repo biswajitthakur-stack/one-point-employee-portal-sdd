@@ -1,0 +1,91 @@
+{
+  "profile": {
+    "employeeId": "EMP-001",
+    "name": "Alex Morgan",
+    "email": "employee@onepoint.demo",
+    "role": "Software Engineer",
+    "department": "Engineering",
+    "location": "London, UK",
+    "status": "Active",
+    "manager": "David Miller",
+    "joinDate": "2023-03-15"
+  },
+  "stats": [
+    {
+      "label": "Active Requests",
+      "value": 1,
+      "type": "active",
+      "detail": "1 pending review"
+    },
+    {
+      "label": "Pending Actions",
+      "value": 0,
+      "type": "pending",
+      "detail": "All tasks complete"
+    },
+    {
+      "label": "Completed Requests",
+      "value": 2,
+      "type": "completed",
+      "detail": "Past 12 months"
+    },
+    {
+      "label": "Current Department",
+      "value": "Engineering",
+      "type": "info",
+      "detail": "London Tech Hub"
+    }
+  ],
+  "quickActions": [
+    {
+      "id": "internal_transfer",
+      "title": "Submit Internal Transfer",
+      "description": "Request a department, location, or role transfer within the organization.",
+      "actionText": "Initiate Transfer",
+      "available": true
+    },
+    {
+      "id": "view_requests",
+      "title": "View My Requests",
+      "description": "Track real-time status and history of all submitted workplace requests.",
+      "actionText": "Coming soon",
+      "available": false
+    },
+    {
+      "id": "view_profile",
+      "title": "View Profile",
+      "description": "Review your employment details, position history, and personal info.",
+      "actionText": "Coming soon",
+      "available": false
+    }
+  ],
+  "recentActivity": [
+    {
+      "id": "ACT-001",
+      "title": "Internal Transfer Request (REQ-2026-0891)",
+      "type": "Transfer",
+      "status": "Under Review",
+      "date": "2026-09-14",
+      "timeAgo": "2 days ago",
+      "badgeColor": "amber"
+    },
+    {
+      "id": "ACT-002",
+      "title": "Workplace Equipment Request (EQP-4012)",
+      "type": "Equipment",
+      "status": "Completed",
+      "date": "2026-09-01",
+      "timeAgo": "2 weeks ago",
+      "badgeColor": "emerald"
+    },
+    {
+      "id": "ACT-003",
+      "title": "Address & Emergency Contact Update",
+      "type": "Profile",
+      "status": "Completed",
+      "date": "2026-08-15",
+      "timeAgo": "1 month ago",
+      "badgeColor": "emerald"
+    }
+  ]
+}

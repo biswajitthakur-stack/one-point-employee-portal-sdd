@@ -1,0 +1,95 @@
+{
+  "departments": [
+    { "id": "dept-eng", "name": "Engineering" },
+    { "id": "dept-hr", "name": "Human Resources" },
+    { "id": "dept-fin", "name": "Finance & Payroll" },
+    { "id": "dept-ops", "name": "Operations" }
+  ],
+  "locations": [
+    { "id": "loc-ny", "name": "New York" },
+    { "id": "loc-lon", "name": "London" },
+    { "id": "loc-tok", "name": "Tokyo" },
+    { "id": "loc-rem", "name": "Remote" }
+  ],
+  "roles": [
+    { "id": "role-se", "name": "Software Engineer" },
+    { "id": "role-pm", "name": "Product Manager" },
+    { "id": "role-hrbp", "name": "HR Business Partner" },
+    { "id": "role-fa", "name": "Financial Analyst" }
+  ],
+  "requests": [
+    {
+      "requestId": "REQ-001",
+      "employeeId": "EMP-001",
+      "departmentId": "dept-eng",
+      "locationId": "loc-ny",
+      "roleId": "role-se",
+      "effectiveDate": "2026-10-01",
+      "reason": "Office transfer request",
+      "status": "Submitted",
+      "pendingActions": [
+        {
+          "stakeholder": "Manager",
+          "action": "Transfer confirmation",
+          "status": "Pending"
+        }
+      ]
+    },
+    {
+      "requestId": "REQ-002",
+      "employeeId": "EMP-001",
+      "departmentId": "dept-ops",
+      "locationId": "loc-lon",
+      "roleId": "role-pm",
+      "effectiveDate": "2026-11-01",
+      "reason": null,
+      "status": "In Progress",
+      "pendingActions": [
+        {
+          "stakeholder": "HR",
+          "action": "Eligibility validation",
+          "status": "In Progress"
+        },
+        {
+          "stakeholder": "IT",
+          "action": "Access provisioning",
+          "status": "Pending"
+        }
+      ]
+    },
+    {
+      "requestId": "REQ-003",
+      "employeeId": "EMP-001",
+      "departmentId": "dept-fin",
+      "locationId": "loc-tok",
+      "roleId": "role-fa",
+      "effectiveDate": "2026-12-01",
+      "reason": "Department transfer",
+      "status": "Downstream Processing Failed",
+      "pendingActions": [
+        {
+          "stakeholder": "Payroll",
+          "action": "Payroll profile update",
+          "status": "Failed"
+        }
+      ]
+    },
+    {
+      "requestId": "REQ-004",
+      "employeeId": "EMP-002",
+      "departmentId": "dept-eng",
+      "locationId": "loc-rem",
+      "roleId": "role-se",
+      "effectiveDate": "2026-10-15",
+      "reason": "Relocation to remote",
+      "status": "Submitted",
+      "pendingActions": [
+        {
+          "stakeholder": "Manager",
+          "action": "Transfer confirmation",
+          "status": "Pending"
+        }
+      ]
+    }
+  ]
+}
